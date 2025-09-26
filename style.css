@@ -2,41 +2,48 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0; /* light gray background */
-  color: #222; /* dark gray text for contrast */
+  background-color: #979393b1; /* light gray */
+  color: #03a4fb; /* dark gray text */
+}
+
+nav {
+  background-color: #9b9a9a;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #668fff; /* professional blue highlight */
 }
 
 h1, h2, h3 {
-  margin: 0 0 10px;
+  margin: 20px 0 10px;
   font-weight: bold;
-  color: #111; /* strong heading color */
+  color: #000000;
 }
 
 p {
   line-height: 1.6;
-  margin: 0 0 15px;
-  color: #333; /* readable paragraph color */
+  margin: 0 20px 20px;
+  color: #003366;
 }
 
-a {
-  color: #0066cc; /* clean professional blue */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #004a99; /* slightly darker blue */
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background: #0066cc; /* same professional blue */
-  color: #fff;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #004a99; /* darker blue on hover */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
 }
